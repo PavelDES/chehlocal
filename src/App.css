@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+body{
+  background: #141414;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 92.19%;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.8);
+
+}
+footer{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 94.53%;
+  bottom: 0;
+  height: 56px;
+  background: rgba(0, 0, 0, 0.8);
+}
+nav{
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  position: absolute;
+  top: 28px;
+  right: 96px;
+  letter-spacing: -0.434118px;
+}
+
+.logo{
+  margin-top: 28px;
+  padding-left: 34.26px;
+  height: 96px;
+  width: 24px;
+
+}
+.search, .menu, .signin{
+  margin-right: 24px;
+
+}
+.signin {
+  cursor: pointer;
+}
+.avat {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  top: 20px;
+  right: 34px;
+  position: absolute;
+}
+.copir{
+  position: absolute;
+  height: 16px;
+  left: 32px;
+  bottom: 22px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  letter-spacing: -0.337647px;
+}
+.footer{
+  position: absolute;
+  height: 16px;
+  right: 32px;
+  bottom: 22px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  letter-spacing: -0.337647px;
+}
+.mail, .regulation{
+  margin-right: 16px;
+}
+.index {
+  right: 32px;
+}
+.signin.active{
+  color: #ffb700
+}
+.signin_form {
+  width: 632px;
+  height: 328px;
+top: 50%;
+margin-top: -164px;
+  left: 50%;
+  margin-left: -316px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.1);
+position: absolute;
+}
+.signtext {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+  padding-top: 24px;
+}
+.signphon {
+  width: 468px;
+  height: 56px;
+  margin-left: 82px;
+  margin-top: 24px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 0;
+
+}
+input[type="tel"]::placeholder {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: rgb(153, 153, 153);
+  padding-left: 16px;
+}
+.phonetemp {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: rgb(153, 153, 153);
+  margin-left: 98px;
+  padding-top: 8px;
+}
+.bottomne {
+  width: 111px;
+  height: 36px;
+  border-radius: 2px;
+  background-color: rgb(153, 153, 153);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgb(23, 23, 23);
+  text-decoration: none;
+  user-select: none
+
+}
+.bottomsend{
+  width: 174px;
+  height: 36px;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+  background-color: rgb(255, 183, 0);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgb(23, 23, 23);
+  margin-left: 16px;
+}
+.bottomblok {
+  margin-left: 249px;
+  margin-top: 16px;
+}
+.send {
+  margin-left: 16px;
+}
