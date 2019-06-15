@@ -1,3 +1,5 @@
+
+
 /**
  * @return {!Object} The FirebaseUI config.
  */
@@ -5,7 +7,7 @@ function getUiConfig() {
   return {
     'callbacks': {
       // Called when the user has been successfully signed in.
-      'signInSuccessWithAuthResult': function(user, credential, redirectUrl) {
+      'signInSuccess': function(user, credential, redirectUrl) {
         handleSignedInUser(user);
         // Do not redirect.
         return false;
